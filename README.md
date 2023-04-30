@@ -1,5 +1,5 @@
 # Xiaomi-4A-100M-R4AC-ImmortalWrt
-A detailed guide on installing ImmortalWrt on Xiami 4A 100M International Version.
+A detailed guide on installing ImmortalWrt on Xiaomi 4A 100M International Version.
 
 [ImmortalWRT](https://github.com/immortalwrt/immortalwrt) is fork of OpenWrt that offers better performance and compatibility.
 ## Step 1
