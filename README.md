@@ -3,9 +3,9 @@ A detailed guide on installing ImmortalWrt on Xiaomi 4A 100M International Versi
 
 [ImmortalWRT](https://github.com/immortalwrt/immortalwrt) is fork of OpenWrt that offers better performance and compatibility.
 ## Step 1
-Install the chinese version of the firmware ***2.18.58*** (if already installed you can skip this part). Use the files from [here](https://drive.google.com/drive/folders/1FVCrAYYcd9zHmXlEv1CZxXRrr1En4f0j?usp=share_link) and [this](https://www.youtube.com/watch?v=SLbkce-M2nE) video tutorial to flash the chinese firmware. Setup the router and note the password you have used.
+Install the chinese stock version of the firmware ***2.18.58*** (if already installed you can skip this part). Use the files from [here](https://drive.google.com/drive/folders/1FVCrAYYcd9zHmXlEv1CZxXRrr1En4f0j?usp=share_link) and [this](https://www.youtube.com/watch?v=SLbkce-M2nE) video tutorial to flash the chinese firmware. Setup the router and note the password you have used.
 ## Step 2
-* Head over [here](https://downloads.immortalwrt.org/releases/21.02.5/targets/ramips/mt76x8/immortalwrt-21.02.5-ramips-mt76x8-xiaomi_mi-router-4a-100m-squashfs-sysupgrade.bin) and download the ImmortalWrt snapshot firmware. Rename the file to firmware.bin for easier identification.
+* Head over [here](https://downloads.immortalwrt.org/releases/21.02.5/targets/ramips/mt76x8/immortalwrt-21.02.5-ramips-mt76x8-xiaomi_mi-router-4a-100m-squashfs-sysupgrade.bin) and download the ImmortalWrt snapshot firmware. Alternatively, you can visit [this website](https://firmware-selector.immortalwrt.org/), and download the latest version for ***Xiaomi Mi Router 4A 100M Edition*** Rename the file to firmware.bin for easier identification.
 * Using a linux/GNU or Mac cli, clone the root shell exploit for the router using git clone https://github.com/acecilia/OpenWRTInvasion.git
 * Then ***cd OpenWrtInvasion/***
 * ***pip3 install -r requirements.txt***
