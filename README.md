@@ -16,12 +16,12 @@ Install the chinese stock version of the firmware ***2.18.58*** (if already inst
 + This step involves copying the firmware.bin into the router for installation.
 + Using filezilla ***(sudo apt install filezilla)***, or any alternative software, open and head over and type **192.168.31.1** in the host section.
 + The password is root and username is root
-+ Scrool on the right-hand panel and locate /tmp and copy the firmware.bin to that location.
++ Scroll on the right-hand panel and locate /tmp and copy the firmware.bin to that location.
 ## Step 4
 + Back in the terminal/cli, type in ***telnet 192.168.31.1***
 + username is root and password is root
 + ***cd /tmp***
 + check sha using: ***./busybox sha256sum firmware.bin***
 + Install firmware using: ***mtd -e OS1 -r write firmware.bin OS1***
-+ Wait for the process to complete uninterrupted until all led lights blue.
++ Wait for the process to complete uninterrupted until all led lights turn blue.
 + You can now access the ImmortalWrt interface via **192.168.1.1** 
